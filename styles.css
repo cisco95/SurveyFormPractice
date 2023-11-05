@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(90deg, #424264C2, #5D5D80C0), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFFFF;    
+
+}
+
+main {
+    max-width: 700px;
+    margin: 3rem auto;
+    
+}
+
+main h1, main p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+main p {
+   margin-bottom: 2rem;
+   margin-top: 10px;
+}
+
+h1 + p {
+    font-style: italic;
+}
+
+form {
+    padding: 20px;
+    background-color: #292948;
+    border: 4px #292948 solid;
+    border-radius: 5px;
+    box-shadow: 25px 25px 20px #19192b;
+}
+
+fieldset {
+    border: none;
+}
+
+input, #dropdown {
+    height: 2em;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    color: #9494A1;
+}
+
+input#name, input#email, input#number, #dropdown{
+    width: 100%;
+    
+}
+
+label {
+    display: block;
+    margin: 20px auto;
+}
+
+label input[type="radio"]{
+    margin-top: -5px;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+label input[type="checkbox"] {
+    margin-top: -2px;
+    vertical-align: middle;
+    margin-right: .75rem;
+}
+
+.fieldsetspacing {
+    padding-right: 0;
+}
+
+.spacing {
+    margin: unset;
+    padding: unset;
+    line-height: 0px;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    width: 1.25rem;
+    height: 1.25rem;
+    
+}
+
+.radio {
+    margin: 0;
+}
+
+fieldset label:last-of-type{
+    margin-bottom: 0px;
+}
+
+textarea {
+    display: block;
+    font-size: 1.25rem;
+    width: 99%;
+    height: 100px;
+}
+
+#submit {
+    width: 100%;
+    background-color: #37AF65;
+    color: #FFFFFF;
+}
